@@ -1,25 +1,25 @@
 .left-header {
   text-align: left;
   margin: 12px 10px 10px 8px;
-  animation: leftUpLoadAnimation 1.5s ease-out forwards;
+  animation: leftUpLoadAnimation 0.8s ease-out forwards;
 }
 
 .right-header {
   text-align: right;
   margin: 10px 8px 12px 10px;
-  animation: rightUpLoadAnimation 1.5s ease-out forwards;
+  animation: rightUpLoadAnimation 0.8s ease-out forwards;
 }
 
 .left-text {
   text-align: left;
   margin: 10px 10px 10px 10px;
-  animation: leftUpLoadAnimation 1.5s ease-out forwards;
+  animation: leftUpLoadAnimation 0.8s ease-out forwards;
 }
 
 .right-text {
   text-align: right;
   margin: 10px 10px 10px 10px;
-  animation: rightUpLoadAnimation 1.5s ease-out forwards;
+  animation: rightUpLoadAnimation 0.8s ease-out forwards;
 }
 
 body {
