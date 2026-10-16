@@ -10,12 +10,12 @@
 
 .left-text {
   text-align: left;
-  display: inline;
+  margin: 10px 20px 10px 20px;
 }
 
 .right-text {
   text-align: right;
-  display: inline;
+  margin: 10px 20px 10px 20px;
 }
 
 body {
