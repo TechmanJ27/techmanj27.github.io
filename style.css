@@ -1,10 +1,12 @@
 .left-header {
   margin: 12px 10px 10px 8px;
+  animation: leftUpLoadAnimation;
 }
 
 .right-header {
   text-align: right;
   margin: 10px 8px 12px 10px;
+  animation: rightUpLoadAnimation
 }
 
 .left-text {
