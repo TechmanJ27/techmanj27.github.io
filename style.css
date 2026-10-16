@@ -11,11 +11,13 @@
 }
 
 .left-text {
-  
+  text-align: left;
+  display: inline;
 }
 
 .right-text {
-  
+  text-align: right;
+  display: inline;
 }
 
 body {
