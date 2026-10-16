@@ -1,25 +1,25 @@
 .left-header {
   text-align: left;
   margin: 12px 10px 10px 8px;
-  animation: leftUpLoadAnimation 1.5s ease-out forwards;
+  animation: leftUpLoadAnimation 1.5s ease-in forwards;
 }
 
 .right-header {
   text-align: right;
   margin: 10px 8px 12px 10px;
-  animation: rightUpLoadAnimation 1.5s ease-out forwards;
+  animation: rightUpLoadAnimation 1.5s ease-in forwards;
 }
 
 .left-text {
   text-align: left;
   margin: 10px 10px 10px 10px;
-  animation: leftUpLoadAnimation 1.5s ease-out forwards;
+  animation: leftUpLoadAnimation 1.5s ease-in forwards;
 }
 
 .right-text {
   text-align: right;
   margin: 10px 10px 10px 10px;
-  animation: rightUpLoadAnimation 1.5s ease-out forwards;
+  animation: rightUpLoadAnimation 1.5s ease-in forwards;
 }
 
 body {
@@ -40,28 +40,6 @@ body {
 
 @keyframes leftUpLoadAnimation {
   0% {
-    transform: translate(-30px, 20px);
-  }
-  50% {
-    transform: translate(-10px, 6px);
-  }
-  100% {
-    transform: translate(0, 0);
-}
-
-@keyframes rightUpLoadAnimation {
-  0% {
-    transform: translate(30px, 20px);
-  }
-  50% {
-    transform: translate(10px, 6px);
-  }
-  100% {
-    transform: translate(0, 0);
-}
-
-@keyframes leftDownLoadAnimation {
-  0% {
     transform: translate(-30px, -20px);
   }
   50% {
@@ -71,12 +49,34 @@ body {
     transform: translate(0, 0);
 }
 
-@keyframes rightDownLoadAnimation {
+@keyframes rightUpLoadAnimation {
   0% {
     transform: translate(30px, -20px);
   }
   50% {
     transform: translate(10px, -6px);
+  }
+  100% {
+    transform: translate(0, 0);
+}
+
+@keyframes leftDownLoadAnimation {
+  0% {
+    transform: translate(-30px, 20px);
+  }
+  50% {
+    transform: translate(-10px, 6px);
+  }
+  100% {
+    transform: translate(0, 0);
+}
+
+@keyframes rightDownLoadAnimation {
+  0% {
+    transform: translate(30px, 20px);
+  }
+  50% {
+    transform: translate(10px, 6px);
   }
   100% {
     transform: translate(0, 0);
