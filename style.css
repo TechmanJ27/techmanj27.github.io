@@ -1,1 +1,23 @@
+.left-header {
+  margin: 10px 20px 10px 20px;
+  text-align: left;
+  display: inline;
+}
 
+.right-header {
+  margin: 10px 20px 10px 20px;
+  text-align: right;
+  display: inline;
+}
+
+.left-text {
+  
+}
+
+.right-text {
+  
+}
+
+.body {
+  
+}
