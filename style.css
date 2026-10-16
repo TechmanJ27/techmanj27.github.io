@@ -48,6 +48,7 @@ body {
   }
   100% {
     transform: translate(0, 0);
+  }
 }
 
 @keyframes rightUpLoadAnimation {
@@ -60,6 +61,7 @@ body {
   }
   100% {
     transform: translate(0, 0);
+  }
 }
 
 @keyframes leftDownLoadAnimation {
@@ -72,6 +74,7 @@ body {
   }
   100% {
     transform: translate(0, 0);
+  }
 }
 
 @keyframes rightDownLoadAnimation {
@@ -84,6 +87,7 @@ body {
   }
   100% {
     transform: translate(0, 0);
+  }
 }
 
 .hr-small {
