@@ -1,25 +1,25 @@
 .left-header {
   text-align: left;
   margin: 12px 10px 10px 8px;
-  animation: leftUpLoadAnimation 1.5s ease-in forwards;
+  animation: leftUpLoadAnimation 1.5s forwards;
 }
 
 .right-header {
   text-align: right;
   margin: 10px 8px 12px 10px;
-  animation: rightUpLoadAnimation 1.5s ease-in forwards;
+  animation: rightUpLoadAnimation 1.5s forwards;
 }
 
 .left-text {
   text-align: left;
   margin: 10px 10px 10px 10px;
-  animation: leftUpLoadAnimation 1.5s ease-in forwards;
+  animation: leftUpLoadAnimation 1.5s forwards;
 }
 
 .right-text {
   text-align: right;
   margin: 10px 10px 10px 10px;
-  animation: rightUpLoadAnimation 1.5s ease-in forwards;
+  animation: rightUpLoadAnimation 1.5s forwards;
 }
 
 body {
@@ -44,6 +44,7 @@ body {
   }
   50% {
     transform: translate(-10px, -6px);
+    animation-timing-function: ease-out;
   }
   100% {
     transform: translate(0, 0);
@@ -55,6 +56,7 @@ body {
   }
   50% {
     transform: translate(10px, -6px);
+    animation-timing-function: ease-out;
   }
   100% {
     transform: translate(0, 0);
@@ -66,6 +68,7 @@ body {
   }
   50% {
     transform: translate(-10px, 6px);
+    animation-timing-function: ease-out;
   }
   100% {
     transform: translate(0, 0);
@@ -77,6 +80,7 @@ body {
   }
   50% {
     transform: translate(10px, 6px);
+    animation-timing-function: ease-out;
   }
   100% {
     transform: translate(0, 0);
