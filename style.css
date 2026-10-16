@@ -32,12 +32,45 @@ body {
   border: 5px solid black;
 }
 
-@keyframes loadAnimation {
+@keyframes leftUpLoadAnimation {
   0% {
-    transform: translate(0, 0); /* Normal position */
+    transform: translate(-30px, 20px);
   }
   50% {
-    transform: translate(50px, -20px); /* 50px right, 20px up from original spot */
+    transform: translate(-10px, 6px);
+  }
+  100% {
+    transform: translate(0, 0);
+}
+
+@keyframes rightUpLoadAnimation {
+  0% {
+    transform: translate(30px, 20px);
+  }
+  50% {
+    transform: translate(10px, 6px);
+  }
+  100% {
+    transform: translate(0, 0);
+}
+
+@keyframes leftDownLoadAnimation {
+  0% {
+    transform: translate(-30px, -20px);
+  }
+  50% {
+    transform: translate(-10px, -6px);
+  }
+  100% {
+    transform: translate(0, 0);
+}
+
+@keyframes rightDownLoadAnimation {
+  0% {
+    transform: translate(30px, -20px);
+  }
+  50% {
+    transform: translate(10px, -6px);
   }
   100% {
     transform: translate(0, 0);
