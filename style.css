@@ -34,7 +34,8 @@ body {
 }
 
 .container,
-.panel {
+.panel,
+.cool-hr {
   transition: transform 0.3s ease-in-out, opacity 0.3s ease-out;
 }
 
