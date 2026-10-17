@@ -84,3 +84,12 @@ body {
 .panel {
   
 }
+
+.fade-in-element {
+  opacity: 0;
+  transition: opacity 0.3s ease-out;
+}
+
+.fade-in-element.visible {
+  opacity: 1;
+}
