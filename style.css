@@ -1,8 +1,8 @@
-body { 
-  margin: 0; 
-  min-height: 100vh; 
-  color: #fff; 
-  background: linear-gradient(0deg, rgba(0, 35, 36, 1) 0%, rgba(5, 80, 85, 1) 37%, rgba(8, 110, 110, 1) 53%, rgba(9, 121, 119, 1) 66%, rgba(16, 133, 123, 1) 83%, rgba(7, 146, 136, 1) 93%);
+body {
+  margin: 0;
+  min-height: 100vh;
+  color: #fff;
+  background: linear-gradient(0deg, #0a0f10 0%, #0f1819 37%, #132021 53%, #172627 66%, #1b2d2e 83%, #203435 93%);
   background-attachment: fixed;
 }
 
