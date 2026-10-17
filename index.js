@@ -1,7 +1,10 @@
-const observer = new IntersectionObserver(callback, {
-  root: document.querySelector("#scrollArea"),
-  rootMargin: "0px",
-  scrollMargin: "0px",
-  threshold: 1.0,
-});
+const observer = new IntersectionObserver((entries) => {
+  entries.forEach((entry) => {
+    if (entry.isIntersecting) {
+      entry.target.classList.add("visible");
+      observer.unobserve(entry.target);
+    }
+  });
+}, { threshold: 0.15 });
 
+document.querySelectorAll(".fade-in-element").forEach((el) => observer.observe(el));
