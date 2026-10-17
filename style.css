@@ -35,7 +35,7 @@ body {
 }
 
 .container:hover {
-  width: 65%;
+  transform: scale(1.1); 
   border-width: 6px;
 }
 
@@ -73,7 +73,7 @@ body {
 hr {
   width: 75%; 
   height: 5px;
-  margin: 20px 0;
+  margin: 20px auto;
 }
 
 .hr-invis { 
