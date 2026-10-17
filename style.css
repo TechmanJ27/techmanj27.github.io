@@ -35,8 +35,7 @@ body {
 }
 
 .container:hover {
-  transform: scale(1.1); 
-  border-width: 6px;
+  transform: scale(1.05); 
 }
 
 .left-header { 
