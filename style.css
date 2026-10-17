@@ -70,11 +70,11 @@ body {
 }
 
 hr {
-  width: 75%; 
+  width: 90%; 
   height: 5px;
   margin: 50px auto;
   background: #99fff6;
-  background: linear-gradient(90deg, rgba(153, 255, 246, 0.5) 0%, rgba(8, 145, 135, 0.5) 25%, rgba(15, 99, 91, 0.5) 50%, rgba(8, 145, 135, 0.5) 75%, rgba(153, 255, 246, 0.5) 100%);
+  background: linear-gradient(90deg, rgba(15, 99, 91, 0.2) 0%, rgba(8, 145, 135, 0.4) 25%, rgba(153, 255, 246, 0.5) 50%, rgba(8, 145, 135, 0.4) 75%, rgba(15, 99, 91, 0.2) 100%);
 }
 
 .hr-invis { 
