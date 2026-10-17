@@ -27,8 +27,8 @@ body {
 .left-text, 
 .right-text { 
   margin: 10px; 
-  max-width: 40%; 
-  font-size: 24px;
+  max-width: 80%; 
+  font-size: 20px;
   font-family: "Noto Sans", sans-serif;
   font-optical-sizing: auto;
   font-weight: 400;
