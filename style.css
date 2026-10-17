@@ -88,11 +88,11 @@ hr {
 }
 
 .panel-container {
-  width: 80%;
+  width: 70%;
   margin: 0 auto 60px;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 24px;
+  gap: 40px;
 }
 
 .panel {
