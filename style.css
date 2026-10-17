@@ -13,7 +13,7 @@ body {
   padding: 0 16px;
   border: 5px solid transparent;
   border-radius: 12px;
-  background: linear-gradient(0deg, rgba(0, 35, 36, .8) 0%, rgba(5, 80, 85, .8) 37%, rgba(8, 110, 110, .8) 53%, rgba(9, 121, 119, .8) 66%, rgba(16, 133, 123, .8) 83%, rgba(7, 146, 136, .8) 93%);
+  background: rgba(10, 20, 22, 0.55);
   background-clip: padding-box;
 }
 
