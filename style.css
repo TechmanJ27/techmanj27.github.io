@@ -17,6 +17,8 @@ body {
   background-clip: padding-box;
   backdrop-filter: blur(8px);
   -webkit-backdrop-filter: blur(8px);
+  display: block;
+  transition: width 0.4s ease-in-out;
 }
 
 .container::before {
@@ -32,9 +34,9 @@ body {
   pointer-events: none;
 }
 
-.container::hover {
+.container:hover {
   width: 65%;
-  border: 6px
+  border-width: 6px;
 }
 
 .left-header { 
