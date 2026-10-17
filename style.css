@@ -88,16 +88,18 @@ hr {
 }
 
 .panel-container {
-  width: 100%;
-  margin: 0 auto;
-  padding: 0 16px;
+  width: 80%;
+  margin: 0 auto 60px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
 }
 
 .panel {
-  width: 25%;
-  display: inline-block;
-  padding: 4px;
-  margin: 15px;
+  padding: 16px;
+  min-height: 140px;
+  border-radius: 8px;
+  border: 4px solid cyan;
 }
 
 .fade-in-element {
@@ -108,3 +110,4 @@ hr {
 .fade-in-element.visible {
   opacity: 1;
 }
+
