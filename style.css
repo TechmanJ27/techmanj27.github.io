@@ -6,11 +6,6 @@ body {
   background-attachment: fixed;
 }
 
-.container,
-.panel {
-  transition: transform 0.3s ease-in-out, opacity 0.3s ease-out;
-}
-
 .container {
   position: relative;
   width: 60%;
@@ -23,7 +18,6 @@ body {
   backdrop-filter: blur(8px);
   -webkit-backdrop-filter: blur(8px);
   display: block;
-  transition: transform 0.3s ease-in-out;
 }
 
 .container::before {
@@ -37,6 +31,11 @@ body {
   -webkit-mask-composite: xor;
   mask-composite: exclude;
   pointer-events: none;
+}
+
+.container,
+.panel {
+  transition: transform 0.3s ease-in-out, opacity 0.3s ease-out;
 }
 
 .container:hover,
