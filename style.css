@@ -34,8 +34,9 @@ body {
   pointer-events: none;
 }
 
-.container:hover {
-  transform: scale(1.05); 
+.container: hover,
+.panel: hover {
+  transform: scale(1.02); 
 }
 
 .left-header { 
