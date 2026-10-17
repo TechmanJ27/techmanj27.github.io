@@ -73,6 +73,8 @@ hr {
   width: 75%; 
   height: 5px;
   margin: 50px auto;
+  background: #99fff6;
+  background: linear-gradient(90deg, rgba(153, 255, 246, 1) 0%, rgba(8, 145, 135, 1) 25%, rgba(15, 99, 91, 1) 50%, rgba(8, 145, 135, 1) 75%, rgba(153, 255, 246, 1) 100%);
 }
 
 .hr-invis { 
