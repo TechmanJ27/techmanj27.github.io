@@ -14,7 +14,8 @@ body {
   border: 5px solid transparent;
   border-radius: 12px;
   background:
-    linear-gradient(#3b3b3b, #3b3b3b) padding-box,
+    #004c5480,
+    linear-gradient(0deg, rgba(0, 35, 36, .8) 0%, rgba(5, 80, 85, .8) 37%, rgba(8, 110, 110, .8) 53%, rgba(9, 121, 119, .8) 66%, rgba(16, 133, 123, .8) 83%, rgba(7, 146, 136, .8) 93%),
     linear-gradient(12deg, rgba(0, 35, 36, 1) 0%, rgba(5, 80, 85, 1) 12%, rgba(8, 110, 110, 1) 26%, rgba(9, 121, 119, 1) 38%, rgba(8, 136, 125, 1) 48%, rgba(7, 146, 136, 1) 61%, rgba(5, 166, 158, 1) 77%, rgba(0, 255, 225, 1) 100%) border-box;
 }
 
