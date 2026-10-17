@@ -34,8 +34,8 @@ body {
   pointer-events: none;
 }
 
-.container: hover,
-.panel: hover {
+.container:hover,
+.panel:hover {
   transform: scale(1.02); 
 }
 
