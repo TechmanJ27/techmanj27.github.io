@@ -106,11 +106,11 @@ hr {
   border: 4px solid cyan;
 }
 
-.fade-in-element * {
+.fade-in-element {
   opacity: 0;
 }
 
-.fade-in-element.visible * {
+.fade-in-element.visible {
   opacity: 1;
 }
 
