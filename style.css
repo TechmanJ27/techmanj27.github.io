@@ -27,7 +27,7 @@ body {
 .left-text, 
 .right-text { 
   margin: 10px; 
-  max-width: fit-content; 
+  max-width: 40%; 
 }
 
 .left-text { 
