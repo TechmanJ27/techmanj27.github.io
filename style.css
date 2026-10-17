@@ -75,6 +75,7 @@ hr {
   margin: 50px auto;
   background: #99fff6;
   background: linear-gradient(90deg, rgba(15, 99, 91, 0.2) 0%, rgba(8, 145, 135, 0.4) 25%, rgba(153, 255, 246, 0.5) 50%, rgba(8, 145, 135, 0.4) 75%, rgba(15, 99, 91, 0.2) 100%);
+  border: none;
 }
 
 .hr-invis { 
