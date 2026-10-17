@@ -34,6 +34,7 @@ body {
   width: 60%;
   margin: 0 auto;
   margin-top: 50px;
+  margin-bottom: 50px;
   padding: 0 16px;
   border: 5px solid black;
 }
@@ -75,7 +76,7 @@ body {
 }
 
 .hr-small {
-  margin: 8px 0px 8px 0px auto;
+  visibility: hidden;
   height: 3px;
   width: 100%;
   background: blue;
@@ -83,7 +84,7 @@ body {
 }
 
 .hr-big {
-  margin: 15px 0px 15px 0px auto;
+  visibility: hidden;
   height: 3px;
   width: 100%;
   background: blue;
@@ -96,11 +97,4 @@ body {
 
 .panel {
   
-}
-
-#divider {
-  height: 2px;
-  width: 80%;
-  background: blue;
-  background: linear-gradient(90deg, hsl(0, 0%, 20%), hsl(0, 0%, 70%), hsl(0, 0%, 20%));
 }
