@@ -37,18 +37,14 @@ body {
 
 .hr-small {
   visibility: hidden;
-  height: 3px;
+  height: 1px;
   width: 100%;
-  background: blue;
-  background: linear-gradient(90deg, hsl(0, 0%, 20%), hsl(0, 0%, 70%), hsl(0, 0%, 20%));
 }
 
 .hr-big {
   visibility: hidden;
-  height: 3px;
+  height: 6px;
   width: 100%;
-  background: blue;
-  background: linear-gradient(90deg, hsl(0, 0%, 20%), hsl(0, 0%, 70%), hsl(0, 0%, 20%));
 }
 
 .panel-container {
