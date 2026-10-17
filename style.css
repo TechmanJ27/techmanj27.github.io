@@ -83,11 +83,14 @@ hr {
 }
 
 .panel-container {
-  
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 16px;
+  display: block;
 }
 
 .panel {
-  
+  width: 25%;
 }
 
 .fade-in-element {
