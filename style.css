@@ -1,51 +1,55 @@
-.left-header {
-  text-align: left;
-  margin: 12px 10px 10px 8px;
+body { 
+  margin: 0; 
+  min-height: 100vh; 
+  color: #fff; 
+  background: linear-gradient(12deg, rgba(0, 35, 36, 1) 0%, rgba(5, 80, 85, 1) 12%, rgba(8, 110, 110, 1) 26%, rgba(9, 121, 119, 1) 38%, rgba(8, 136, 125, 1) 48%, rgba(7, 146, 136, 1) 61%, rgba(5, 166, 158, 1) 77%, rgba(0, 255, 225, 1) 100%); 
+  background-attachment: fixed; 
 }
 
-.right-header {
-  text-align: right;
-  margin: 10px 8px 12px 10px;
+.container { 
+  width: 60%; 
+  margin: 0 auto; 
+  padding: 0 16px; 
+  border: 5px solid #000; 
+  border-radius: 12px; 
 }
 
-.left-text {
-  margin: 10px 10px 10px 10px;
-  max-width: fit-content;
+.left-header { 
+  text-align: left; 
+  margin: 12px 10px 10px 8px; 
+}
+
+.right-header { 
+  text-align: right; 
+  margin: 10px 8px 12px 10px; 
+}
+
+.left-text, 
+.right-text { 
+  margin: 10px; 
+  max-width: fit-content; 
+}
+
+.left-text { 
   margin-right: auto; 
 }
 
-.right-text {
-  margin: 10px 10px 10px 10px;
-  max-width: fit-content;
+.right-text { 
   margin-left: auto; 
 }
 
-body {
-  margin: 0;
-  min-height: 100vh;
-  color: #fff;
-  background: linear-gradient(12deg, rgba(0, 35, 36, 1) 0%, rgba(5, 80, 85, 1) 12%, rgba(8, 110, 110, 1) 26%, rgba(9, 121, 119, 1) 38%, rgba(8, 136, 125, 1) 48%, rgba(7, 146, 136, 1) 61%, rgba(5, 166, 158, 1) 77%, rgba(0, 255, 225, 1) 100%);
-  background-attachment: fixed;
+.hr-small, 
+.hr-big { 
+  visibility: hidden; 
+  width: 100%; 
 }
 
-.container {
-  width: 60%;
-  margin: 0 auto;
-  padding: 0 16px;
-  border: 5px solid black;
-  border-radius: 12px;
+.hr-small { 
+  height: 25px; 
 }
 
-.hr-small {
-  visibility: hidden;
-  height: 25px;
-  width: 100%;
-}
-
-.hr-big {
-  visibility: hidden;
-  height: 50px;
-  width: 100%;
+.hr-big { 
+  height: 50px; 
 }
 
 .panel-container {
