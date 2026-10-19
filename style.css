@@ -151,7 +151,7 @@ p {
   height: 35px;
 }
 
-span {
+.hr-text {
   border: 5px solid transparent;
   border-radius: 12px;
   background: rgba(255, 255, 255, 0.06);
@@ -165,7 +165,7 @@ span {
   height: 20px;
 }
 
-span::before {
+.hr-text::before {
   content: "";
   position: absolute;
   inset: -4px;
