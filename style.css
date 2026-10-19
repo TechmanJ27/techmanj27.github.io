@@ -165,8 +165,8 @@ p {
   max-width: fit-content;
   margin-left: auto;
   margin-right: auto;
-  height: 50px;
-  transform: translateY(20px);
+  height: 30px;
+  transform: translateY(25px);
 }
 
 .hr-text-wrapper::before {
@@ -184,4 +184,5 @@ p {
 
 .hr-text {
   transform: translateY(-10px);
+  position: relative;
 }
