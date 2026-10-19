@@ -183,6 +183,5 @@ p {
 }
 
 .hr-text {
-  transform: translateY(-10px);
   position: relative;
 }
