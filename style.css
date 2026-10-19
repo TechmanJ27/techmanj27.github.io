@@ -149,26 +149,8 @@ p {
 }
 
 .panel.img {
-  margin-left: auto;
-  margin-bottom: auto;
+  align: right;
+  align: top;
   width: 35px;
   height: 35px;
-}
-
-.panel.img:hover {
-  box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
-}
-
-.panel.a:link, .panel.a:visited {
-  background-color: transparent;
-  color: white;
-  padding: 14px 25px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-}
-
-.panel.a:hover, .panel.a:active {
-  background-color: transparent;
-  border: black;
 }
