@@ -144,5 +144,5 @@ p {
 }
 
 .hr-text {
-  
+  transform: translateY(-50px);
 }
