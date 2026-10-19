@@ -153,6 +153,8 @@ p {
   display: block;
   margin-left: auto;
   margin-bottom: auto;
+  width: 35px;
+  height: 35px;
 }
 
 panel.img:hover {
