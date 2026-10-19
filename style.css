@@ -128,11 +128,13 @@ p {
 }
 
 .hr-parent {
-  display: table;
   position: relative;
   width: 100%;
   height: 125px; 
   margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .cool-hr {
@@ -147,6 +149,5 @@ p {
 }
 
 .hr-text {
-  vertical-align: center;
-  text-align: center;
+
 }
