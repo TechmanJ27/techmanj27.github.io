@@ -144,10 +144,6 @@ p {
   position: absolute;
 }
 
-.hr-text {
-  transform: translateY(50px);
-}
-
 .panel.img {
   align: right;
   align: top;
@@ -162,6 +158,9 @@ span {
   background-clip: padding-box;
   backdrop-filter: blur(8px);
   -webkit-backdrop-filter: blur(8px);
+  transform: translateY(50px);
+  margin-left: auto;
+  margin-right: auto;
 }
 
 span::before {
