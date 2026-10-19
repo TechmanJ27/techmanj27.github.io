@@ -146,11 +146,9 @@ p {
 
 .hr-text {
   transform: translateY(20px);
-  position: absolute;
 }
 
 .panel.img {
-  display: block;
   margin-left: auto;
   margin-bottom: auto;
   width: 35px;
