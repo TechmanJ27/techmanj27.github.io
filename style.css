@@ -146,4 +146,5 @@ p {
 
 .hr-text {
   transform: translateY(-62.5px);
+  position: absolute;
 }
