@@ -143,3 +143,9 @@ p {
   border: none;
   postition: absolute;
 }
+
+.hr-text {
+  display: table;
+  vertical-align: center;
+  text-align: center;
+}
