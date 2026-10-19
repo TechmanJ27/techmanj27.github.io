@@ -136,3 +136,28 @@ hr {
   opacity: 1;
 }
 
+.cool-hr {
+  overflow: hidden;
+  text-align: center;
+}
+
+.cool-hr::before,
+.cool-hr::after {
+  background-color: #000;
+  content: "";
+  display: inline-block;
+  height: 1px;
+  position: relative;
+  vertical-align: middle;
+  width: 50%;
+}
+
+.cool-hr::before {
+  right: 0.5em;
+  margin-left: -50%;
+}
+
+.cool-hr::after {
+  left: 0.5em;
+  margin-right: -50%;
+}
