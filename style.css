@@ -114,15 +114,6 @@ hr {
   -webkit-backdrop-filter: blur(8px);
 }
 
-.panel::before {
-  border-radius: 8px;
-  background: linear-gradient(12deg, rgba(0, 35, 36, 1) 0%, rgba(5, 80, 85, 1) 12%, rgba(8, 110, 110, 1) 26%, rgba(9, 121, 119, 1) 38%, rgba(8, 136, 125, 1) 48%, rgba(7, 146, 136, 1) 61%, rgba(5, 166, 158, 1) 77%, rgba(0, 255, 225, 1) 100%);
-  -webkit-mask: linear-gradient(#000 0 0) content-box, linear-gradient(#000 0 0);
-  -webkit-mask-composite: xor;
-  mask-composite: exclude;
-  pointer-events: none;
-}
-
 .fade-in-element {
   opacity: 0;
 }
