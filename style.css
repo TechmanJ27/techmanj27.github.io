@@ -162,6 +162,8 @@ p {
   backdrop-filter: blur(8px);
   -webkit-backdrop-filter: blur(8px);
   width: 10%;
+  text-align: center;
+  margin: 0 auto;
 }
 
 .hr-text::before {
