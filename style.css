@@ -164,6 +164,7 @@ p {
   max-width: fit-content;
   margin-left: auto;
   margin-right: auto;
+  transform: translate(20px);
 }
 
 .hr-text::before {
