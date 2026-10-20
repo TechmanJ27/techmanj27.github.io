@@ -135,6 +135,7 @@ p {
   margin: auto;
   margin-top: 15px;
   text-align: center;
+  position: relative;
 }
 
 .cool-hr {
