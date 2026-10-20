@@ -184,4 +184,5 @@ p {
 
 .hr-text {
   position: relative;
+  transform: translateY(-20px);
 }
