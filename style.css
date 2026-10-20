@@ -35,7 +35,9 @@ body {
 
 .container,
 .panel,
-.cool-hr {
+.cool-hr,
+.hr-wrapper,
+.hr-text {
   transition: transform 0.3s ease-in-out, opacity 0.3s ease-out;
 }
 
