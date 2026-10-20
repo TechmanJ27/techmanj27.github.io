@@ -139,6 +139,7 @@ p {
 }
 
 .cool-hr {
+  width: 90%;
   height: 5px;
   margin: 60px auto; 
   background: #99fff6;
