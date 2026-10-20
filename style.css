@@ -148,13 +148,6 @@ p {
   position: absolute;
 }
 
-.panel.img {
-  align: right;
-  align: top;
-  width: 35px;
-  height: 35px;
-}
-
 .hr-text-wrapper {
   padding: 4px;
   position: relative;
@@ -190,6 +183,11 @@ p {
   transform: translateY(-20px);
 }
 
-.panel-image {}
+.panel-image {
+  align: right;
+  align: top;
+  width: 35px;
+  height: 35px;
+}
 
 .panel-button {}
