@@ -189,3 +189,7 @@ p {
   position: relative;
   transform: translateY(-20px);
 }
+
+.panel-image {}
+
+.panel-button {}
