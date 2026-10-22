@@ -136,7 +136,6 @@ p {
   margin-top: 15px;
   text-align: center;
   position: relative;
-  border: solid 2px white;
 }
 
 .cool-hr {
@@ -149,7 +148,6 @@ p {
   position: absolute;
   align: center;
   transform: translateX(60px);
-  border: solid 2px white;
 }
 
 .hr-text-wrapper {
@@ -194,4 +192,6 @@ p {
   height: 35px;
 }
 
-.panel-button {}
+.panel-button {
+  
+}
