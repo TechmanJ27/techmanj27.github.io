@@ -197,12 +197,11 @@ p,
 	bottom: 16px;
 	cursor: pointer;
 	box-shadow: inset 0px -4px 2px 0px #2495e0;
-	background: linear-gradient(to bottom, #93eef5 5%, #0099ff 100%);
-	background-color: #93eef5;
+	background: #22898f;
+	background: linear-gradient(336deg, rgba(34, 137, 143, 1) 0%, rgba(67, 177, 181, 1) 50%, rgba(84, 232, 232, 1) 100%);
 	border-radius: 26px;
-	border: 1px solid #2495e0;
+	border: 1px solid #3cc4d6;
 	display: inline-block;
-	color: #ffffff;
 	padding: 16px 31px;
 	text-decoration: none;
 }
