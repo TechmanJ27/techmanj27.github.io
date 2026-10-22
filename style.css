@@ -211,7 +211,3 @@ p,
 .panel-button:hover {
 	transform: translateY(-1px);
 }
-
-.panel-button:active {
-	transform: translateY(1px);
-}
