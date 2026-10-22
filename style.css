@@ -149,6 +149,7 @@ p {
   position: absolute;
   align: center;
   transform: translateX(40px);
+  border: solid 2px white;
 }
 
 .hr-text-wrapper {
