@@ -196,4 +196,24 @@ p,
   position: absolute;
   left: 16px;
   bottom: 16px;
+  cursor: pointer;
+	box-shadow: inset 0px -4px 2px 0px #2495e0;
+	background: linear-gradient(to bottom, #93eef5 5%, #0099ff 100%);
+	background-color: #93eef5;
+	border-radius: 26px;
+	border: 1px solid #2495e0;
+	display: inline-block;
+	color: #ffffff;
+	padding: 16px 31px;
+	text-decoration: none;
+}
+
+.panel-button:hover {
+	background: linear-gradient(to bottom, #0099ff 5%, #93eef5 100%);
+	background-color: #0099ff;
+}
+
+.panel-button:active {
+	position: absolute;
+	top: 1px;
 }
