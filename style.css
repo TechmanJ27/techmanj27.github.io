@@ -187,11 +187,10 @@ p {
 
 .panel-image {
   align: right;
-  align: top;
   width: 35px;
   height: 35px;
 }
 
 .panel-button {
-  
+  align: bottom;
 }
