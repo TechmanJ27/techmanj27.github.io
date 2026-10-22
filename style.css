@@ -193,6 +193,7 @@ p {
 
 .panel-button {
   position: absolute;
-  left: 5;
-  bottom: 5;
+  margin: 16px;
+  left: 5px;
+  bottom: 5px;
 }
