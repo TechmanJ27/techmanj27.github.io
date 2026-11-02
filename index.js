@@ -7,5 +7,5 @@ const observer = new IntersectionObserver((entries) => {
     }
   });
 }, { threshold: 0.15 });
-
+ 
 document.querySelectorAll(".fade-in-element").forEach((el) => observer.observe(el));
