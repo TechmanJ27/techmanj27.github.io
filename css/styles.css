@@ -6,6 +6,18 @@ body {
   background-attachment: fixed;
 }
 
+.main-container.h2 {
+  
+}
+
+.main-container.p {
+  
+}
+
+.src-code {
+  
+}
+
 .main-container {
   position: relative;
   width: 60%;
