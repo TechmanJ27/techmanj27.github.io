@@ -1,4 +1,4 @@
-class MainHeader extends HTMLElement {
+class Header extends HTMLElement {
   connectedCallback() {
     this.innerHTML = `
       <nav>            
