@@ -8,6 +8,7 @@ body {
 
 nav {
   padding: 10px;
+  display: inline-block;
 }
 
 nav.li {
