@@ -10,7 +10,7 @@ nav {
   padding: 10px;
 }
 
-nav.li {
+nav.ul.li {
   margin: 0 20px;
   display: inline;
 }
