@@ -8,11 +8,11 @@ body {
 
 nav {
   padding: 10px;
-  display: inline-block;
 }
 
 nav.li {
   margin: 0 20px;
+  display: inline;
 }
 
 .main-container.h2 {
